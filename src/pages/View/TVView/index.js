@@ -457,12 +457,12 @@ export class TVSView extends Component {
           <DialogTitle id="img-dialog">Thumbnail</DialogTitle>
           <img src={image_url} style={{ padding: "25px" }} />
         </Dialog>
-        <div className="plyr__component">
+        <div id="videoPlayer" className="plyr__component">
           <DPlayer
             key={playerKey}
             style={{
-              borderRadius: "12px 12px 0 0",
-              borderWidth: "4px 4px 0 4px",
+              borderRadius: "0px 0px 0 0",
+              borderWidth: "0px 0px 0 0px",
               borderColor: "black",
               borderStyle: "solid",
             }}
