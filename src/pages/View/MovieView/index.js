@@ -233,12 +233,12 @@ export default class MovieView extends Component {
 
     return (
       <div className="MovieView">
-        <div className="plyr__component">
+        <div id="videoPlayer" className="plyr__component">
           <DPlayer
             key={playerKey}
             style={{
-              borderRadius: "12px",
-              borderWidth: "5px",
+              borderRadius: "0px",
+              borderWidth: "0px",
               borderColor: "black",
               borderStyle: "solid",
             }}
